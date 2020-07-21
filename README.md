@@ -1,5 +1,5 @@
 # Wav2Letter+ attack based on IPC 
-Code for ICLR_2020 paper (under review)
+Code for IJCAI_2020 paper (accepted)
 
 **Generating Robust Audio Adversarial Examples with Temporal Dependency** <br />
 **[[Paper](https://www.ijcai.org/Proceedings/2020/0438.pdf)]** <br />
