@@ -1,8 +1,8 @@
 # Wav2Letter+ attack based on IPC 
 Code for ICLR_2020 paper (under review)
 
-**Generating Robust Audio Adversarial Examples using Iterative Proportional Clipping** <br />
-**[[Paper](https://openreview.net/forum?id=HJgFW6EKvH)]** <br />
+**Generating Robust Audio Adversarial Examples with Temporal Dependency** <br />
+**[[Paper](https://www.ijcai.org/Proceedings/2020/0438.pdf)]** <br />
 
 ### Installation
 Install PyTorch if you haven't already. We currently implement our experiments on pytorch 1.1.0 with cuda9 and python3.7.
@@ -44,7 +44,7 @@ Finally clone this repo and run this within the repo:
 
 ### Inference 
 We give two demos for researchers to reproduce our work.
-1. Please download the [BaiDuYun](https://pan.baidu.com/s/1SuveHraSzv_Q9LhhOxxS4A) (code:ffgq).
+1. Please download the [BaiDuYun](https://pan.baidu.com/s/1ZphnJK_LIS-pyVhPywfqCA) (code:t77e).
 2. Unzip the [4-gram.arpa.tar.gz] under the root directory, and put the [pretrained_wav2Letter.pth.tar] under the 'model_libri' folder.
 3. 
 Run the following code to attack from **original1** to **target1**:
