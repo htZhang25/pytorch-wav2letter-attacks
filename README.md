@@ -57,3 +57,14 @@ Run the following code to attack from **original2** to **target2**:
     $ python attack_stage1.py --orig-path ./data/original/original2.wav --target-path ./data/target/target2.txt
     $ python attack_stage2.py --audio-path ./generated_stage1/original2_to_target2_stage1.wav --orig-path ./data/original/original2.wav --target-path ./data/target/target2.txt 
 4. The generated adversarial audios are under the 'generated_stage2' folder.
+
+### Attribution
+If you use this code in your research, cite via the following BibTeX:
+
+    @inproceedings{ijcai2020-438,
+        title     = {Generating Robust Audio Adversarial Examples with Temporal Dependency},
+        author    = {Zhang, Hongting and Zhou, Pan and Yan, Qiben and Liu, Xiao-Yang},
+        booktitle = {Proceedings of the Twenty-Ninth International Joint Conference on
+                     Artificial Intelligence, {IJCAI-20}},            
+        year      = {2020},
+        }
