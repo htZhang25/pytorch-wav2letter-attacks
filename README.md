@@ -18,7 +18,7 @@ Install this fork for Warp-CTC bindings:
     $ cd ../pytorch_binding
     $ python setup.py install
 
-Note: If you encounter the problem of ***ModuleNotFoundError: No module named 'warpctc_pytorch._warp_ctc'***, you can copy the '~/anaconda2/envs/envs_name/lib/python3.7/site-packages/warpctc_pytorch-0.1-py3.7-linux-x86_64.egg/warpctc_pytorch' folder to the root directory of this project 'ICLR_2020_382/'.
+Note: If you encounter the problem of ***ModuleNotFoundError: No module named 'warpctc_pytorch._warp_ctc'***, you can copy the '~/anaconda2/envs/envs_name/lib/python3.7/site-packages/warpctc_pytorch-0.1-py3.7-linux-x86_64.egg/warpctc_pytorch' folder to the root directory of this project 'pytorch-wav2letter-attacks/'.
 
     $ cp -r ~/warpctc_pytorch .
 
